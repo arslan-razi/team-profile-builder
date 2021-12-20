@@ -46,7 +46,7 @@ https://github.com/arslan-razi/team-profile-builder
 ![Screenshot / Gif Animation](./assets/screenshot.png)
 
 ### Video Demo
-<!-- Video Link -->
+https://youtu.be/xrPIsFQ2sQ4
 
 ## Technologies Used
 1. HTML
