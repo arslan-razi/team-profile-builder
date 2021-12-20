@@ -1,0 +1,99 @@
+/* ===========================================================================*/
+/* global styles */
+* {
+    /* resets default browser settings to zero */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-collapse: collapse;
+  
+    /* changes default font */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /* =================== starts xs (<= 768px) - phone styles ================== */
+  h1 {
+    height: 100px;
+    background-color: #0ca014;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .flex-container article {
+    margin: 5% 0;
+    width: 80%;
+    border: 1px solid;
+    box-shadow: 2px 2px grey;
+    background-color: #eeeeee;
+  }
+  
+  .blue-bg {
+    padding: 5px;
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  h3,
+  h4 {
+    padding: 5px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  .grey-bg {
+    padding: 30px 15px;
+  }
+  
+  ul li {
+    padding: 10px;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    font-size: 16px;
+  }
+  
+  /* ========================================================================== */
+  /* ==================== ends xs (<= 768px) - phone styles =================== */
+  
+  /* ================ starts sm (768px < 992px) tablets styles ================ */
+  @media screen and (min-width: 768px) {
+    .flex-container article {
+      width: 40%;
+    }
+  }
+  /* ================= ends sm (768px < 992px) tablets styles ================= */
+  
+  /* ============= starts md (992px < 1199px) small laptops styles ============ */
+  @media screen and (min-width: 992px) {
+    .flex-container article {
+      width: 26%;
+    }
+  }
+  /* ============== ends md (992px < 1199px) small laptops styles ============= */
+  
+  /* ============= starts lg (>= 1200px) laptops & desktops styles ============ */
+  @media screen and (min-width: 1200px) {
+    .flex-container article {
+      width: 21%;
+    }
+  }
+  
