@@ -4,11 +4,7 @@ const { addManager, next, addEngineer, addIntern } = require('./src/questions');
 const writeToFile = require('./src/writeToFile');
 const generateHTML = require('./src/generateHTML');
 
-// import and config for ascii-art
-const logo = require('asciiart-logo');
 const config = require('./package.json');
-// prints splash screen
-console.log(logo(config).render());
 
 // import classes
 const Manager = require('./lib/Manager');
